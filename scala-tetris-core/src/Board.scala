@@ -105,6 +105,32 @@ object Board {
                 Vector(0, 2)
             )
         ),
+        Seq( // L>
+            Seq(
+                Vector(1, 0),
+                Vector(1, 1),
+                Vector(1, 2),
+                Vector(0, 2)
+            ),
+            Seq(
+                Vector(0, 0),
+                Vector(0, 1),
+                Vector(1, 1),
+                Vector(2, 1)
+            ),
+            Seq(
+                Vector(1, 0),
+                Vector(2, 0),
+                Vector(1, 1),
+                Vector(1, 2)
+            ),
+            Seq(
+                Vector(0, 1),
+                Vector(1, 1),
+                Vector(2, 1),
+                Vector(2, 2)
+            )
+        ),
         Seq( // I
             Seq(
                 Vector(0, 1),
@@ -152,6 +178,34 @@ object Board {
                 Vector(0, 1),
                 Vector(1, 2)
             )
+        ),
+        Seq( // Z
+            Seq(
+                Vector(0, 0),
+                Vector(1, 0),
+                Vector(1, 1),
+                Vector(2, 1)
+            ),
+            Seq(
+                Vector(2, 0),
+                Vector(2, 1),
+                Vector(1, 1),
+                Vector(1, 2)
+            )
+        ),
+        Seq( // Z>
+            Seq(
+                Vector(0, 1),
+                Vector(1, 1),
+                Vector(1, 0),
+                Vector(2, 0)
+            ),
+            Seq(
+                Vector(1, 0),
+                Vector(1, 1),
+                Vector(2, 1),
+                Vector(2, 2)
+            )
         )
     )
 
@@ -171,4 +225,10 @@ case class Vector(x: Int, y: Int) {
 
 
 }
+
+
+
+
+
+
 
